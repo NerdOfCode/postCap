@@ -10,6 +10,7 @@ class HomeController < ApplicationController
       if @user.present? && @user.authenticate(params[:password])
         session[:user_id] = @user.id
         session[:email]   = @user.email
+        cookies[:email]   = @user.email
         redirect_to :controller => 'home', :action => 'index'
       else
         flash[:alert] = "Invalid username/password"

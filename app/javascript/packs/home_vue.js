@@ -8,17 +8,16 @@
 import Vue from 'vue'
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
-import App from '../navbar.vue'
+import Home from '../home.vue'
 
 Vue.use(Buefy)
 
 document.addEventListener('DOMContentLoaded', () => {
-  const app = new Vue({
-    render: h => h(App),
-  }).$mount()
-  document.body.appendChild(app.$el)
-
-  console.log(app)
+	const app = new Vue({
+		render: h => 
+		h(Home),
+	}).$mount()
+	document.body.appendChild(app.$el)
 })
 
 

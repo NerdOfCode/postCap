@@ -1,0 +1,12 @@
+version: '3'
+services:
+  db:
+    image: keinos/sqlite3:latest
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      DBNAME: "production"
+    depends_on:
+      - db

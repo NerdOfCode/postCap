@@ -1,24 +1,25 @@
-# README
+# postCap
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+postCap is a lightweight Rails application with the intention of allowing users to share their capstone projects or really any significant project they're working on!
 
-Things you may want to cover:
+## The Basics
 
-* Ruby version
+## System dependencies:
 
-* System dependencies
+* `ruby2.6.5`
+* `nodejs`
+* `sqlite3`
+* `npm`
+* `build-essential`
 
-* Configuration
+## Installation && Deployment
 
-* Database creation
+To install:
 
-* Database initialization
+`git clone https://github.com/NerdOfCode/postCap.git && cd postCap/`
 
-* How to run the test suite
+To deploy:
 
-* Services (job queues, cache servers, search engines, etc.)
+`docker-compose up --build`
 
-* Deployment instructions
-
-* ...
+Currently, Docker is the only supported deployment method. Moreover, any further networking configuration is to be down in Docker.

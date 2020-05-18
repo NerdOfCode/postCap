@@ -22,6 +22,8 @@ class HomeController < ApplicationController
   end
 
   def fun
+  end
 
+  def more_fun
   end
 end

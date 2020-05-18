@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   match "home/index" => "home#index", via: [:get, :post]
   match "home/post"  => "home#post",  via: [:get]
   match "home/fun"   => "home#fun",   via: [:get]
+  match "home/more_fun"   => "home#more_fun",   via: [:get]
 
 
   namespace :api do

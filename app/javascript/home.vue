@@ -13,7 +13,7 @@ export default {
 	name: "Home",
 	components: {
 		'Navbar' : Nav,
-		'Posts'  : Posts
+		'Posts'  : Posts,
 	}
 }
 </script>

@@ -8,7 +8,7 @@
 		<template slot="end">
 			<b-navbar-item tag="div">
 				<div>
-					<a href="" class="button is-primary">
+					<a href="/home/post" class="button is-primary">
 						Post
 					</a>
 				</div>

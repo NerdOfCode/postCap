@@ -5,7 +5,7 @@ services:
   web:
     build: .
     ports:
-      - "3000:3000"
+      - "${postCap_port}:30000"
     environment:
       DBNAME: "production"
     depends_on:

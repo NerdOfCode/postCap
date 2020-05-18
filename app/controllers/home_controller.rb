@@ -17,6 +17,11 @@ class HomeController < ApplicationController
       end
     end
   end
+
+  def post
+  end
+
   def fun
+
   end
 end

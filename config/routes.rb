@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   match "home/login" => "home#login", via: [:get, :post]
   match "home/index" => "home#index", via: [:get, :post]
+  match "home/post"  => "home#post",  via: [:get]
   match "home/fun"   => "home#fun",   via: [:get]
 
 

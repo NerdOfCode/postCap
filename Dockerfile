@@ -43,4 +43,4 @@ ADD . $APP_HOME
 RUN yarn install --check-files
 
 # Run our app
-CMD rails s -p 3000 -b '0.0.0.0'
+CMD rails s -p 30000 -b 0.0.0.0
